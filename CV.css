@@ -1,0 +1,208 @@
+body
+{
+    background: url('pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-1111319.jpg') no-repeat center center fixed;
+    -webkit-background-size:cover; /* to make it cover all the screen*/
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}
+.con img
+{
+    height: 250px;
+    width: 250px;
+    margin: 40px;
+    border-radius: 20px;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 55px;
+    top: 50px;
+}
+
+.con h1
+{
+    position: absolute;
+    color: black;
+    transform: rotate(-20deg);
+    top: 330px;
+    left: 140px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 19px;
+}
+
+#phone
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 400px;
+    left: 130px;
+    -webkit-animation: sca 1s infinite ease-in-out;
+    -moz-animation: sca 1s infinite ease-in-out;
+    -o-animation: sca 1s infinite ease-in-out;
+    animation: sca 1s infinite ease-in-out;
+}
+.con p
+{
+    position: absolute;
+    color: black;
+    transform: rotate(-20deg);
+    top: 400px;
+    left: 240px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 19px;
+}
+
+#p1
+{
+    position: absolute;
+    color: #fbf7f0;
+    transform: rotate(-20deg);
+    top: 370px;
+    left: 190px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 19px;
+    color: #555555;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#mail
+{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+    -webkit-animation: sca 1s infinite ease-in-out;
+    -moz-animation: sca 1s infinite ease-in-out;
+    -o-animation: sca 1s infinite ease-in-out;
+    animation: sca 1s infinite ease-in-out;
+}
+
+#p2
+{
+    position: absolute;
+    color: #fbf7f0;
+    transform: rotate(-20deg);
+    top: 450px;
+    left: 248px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 15px;
+    color: black;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#lin
+{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 520px;
+    left: 170px;
+    -webkit-animation: sca 1s infinite ease-in-out;
+    -moz-animation: sca 1s infinite ease-in-out;
+    -o-animation: sca 1s infinite ease-in-out;
+    animation: sca 1s infinite ease-in-out;
+    
+}
+
+.con a
+{
+    position: absolute;
+    top: 530px;
+    left: 270px;
+    transform: rotate(-20deg);
+    font-size: 19px;
+    color: black;
+     -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    font-weight: bold;
+    font-style: italic;
+    font-family: cursive;
+    text-decoration-line: none;
+}
+
+.con a:hover
+{
+
+    text-decoration-line: none;
+    color: #fbf7f0;
+}
+
+@keyframes sca
+{
+    0,100%
+    {
+         -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -o-transform: scale(.8);
+        transform: scale(.8);
+    }
+    
+    50%
+    {
+         -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+/***************************************************************/
+
+
+.info h1
+{
+    color: #e9b0df;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+
+.info p
+{
+    color: #cdc9c3; 
+    font-weight: bold;
+}
+
+.info li
+{
+    list-style: none;
+    color: #cdc9c3;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.ul0 li
+{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

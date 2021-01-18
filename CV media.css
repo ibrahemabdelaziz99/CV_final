@@ -1,0 +1,190 @@
+@media(min-width:0) and (max-width:1300px)
+{
+    
+    body
+    {
+        background: url('pexels-sound-on-3394650.jpg') no-repeat center center fixed;
+        -webkit-background-size:cover; /* to make it cover all the screen*/
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        background-size:cover;
+        height: 900px;
+    }
+
+    .con img
+    {
+        height: 250px;
+        width: 250px;
+        border-radius: 20px;
+        transform: rotate(0);
+        position: relative;
+    }
+
+    .con h1
+    {
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-family: cursive;
+        font-size: 19px;
+        transform: rotate(0);
+        position: relative;
+        top: 30px;
+        left: 95px;
+    }
+
+    #phone
+    {
+        width: 40px;
+        height: 40px;
+        -webkit-animation: sca 1s infinite ease-in-out;
+        -moz-animation: sca 1s infinite ease-in-out;
+        -o-animation: sca 1s infinite ease-in-out;
+        animation: sca 1s infinite ease-in-out;
+        transform: rotate(0);
+        position: relative;
+        top: 20px;
+        left: 65px;
+    }
+    .con p
+    {
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-family: cursive;
+        font-size: 19px;
+        transform: rotate(0);
+        position: relative;
+        top: -60px;
+        left: 180px;
+    }
+
+    #p1
+    {
+        display: none;
+    }
+
+    #mail
+    {
+        width: 40px;
+        height: 40px;
+        -webkit-animation: sca 1s infinite ease-in-out;
+        -moz-animation: sca 1s infinite ease-in-out;
+        -o-animation: sca 1s infinite ease-in-out;
+        animation: sca 1s infinite ease-in-out;
+        transform: rotate(0);
+        position: relative;
+        top: -60px;
+        left: 60px;
+    }
+
+    #p2
+    {
+        color: black;
+        font-weight: bold;
+        font-style: italic;
+        font-family: cursive;
+        font-size: 15px;
+        font-style: italic;
+        font-family: cursive;
+        transform: rotate(0);
+        position: relative;
+        top: -130px;
+        left: 170px;
+    }
+
+    #lin
+    {
+        width: 60px;
+        height: 60px;
+        -webkit-animation: sca 1s infinite ease-in-out;
+        -moz-animation: sca 1s infinite ease-in-out;
+        -o-animation: sca 1s infinite ease-in-out;
+        animation: sca 1s infinite ease-in-out;
+        transform: rotate(0);
+        position: relative;
+        top: -130px;
+        left: 50px;
+
+    }
+
+    .con a
+    {
+
+        font-size: 19px;
+        color: black;
+         -webkit-transition: all .5s ease-in-out;
+        -moz-transition: all .5s ease-in-out;
+        -o-transition: all .5s ease-in-out;
+        transition: all .5s ease-in-out;
+        font-weight: bold;
+        font-style: italic;
+        font-family: cursive;
+        text-decoration-line: none;
+        transform: rotate(0);
+        position: relative;
+        top: -130px;
+        left: 40px;
+    }
+
+    .con a:hover
+    {
+
+        text-decoration-line: none;
+        color: pink;
+    }
+
+    @keyframes sca
+    {
+        0,100%
+        {
+             -webkit-transform: scale(.8);
+            -moz-transform: scale(.8);
+            -o-transform: scale(.8);
+            transform: scale(.8);
+        }
+
+        50%
+        {
+             -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+            -o-transform: scale(1);
+            transform: scale(1);
+        }
+    }
+
+    /***************************************************************/
+
+
+    .info h1
+    {
+        color: #252525;
+        font-size: 30px;
+        font-family: cursive;
+
+    }
+
+    .info p
+    {
+        color: #6930c3; 
+        font-weight: bold;
+    }
+
+    .info li
+    {
+        list-style: none;
+        color: #6930c3;
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+    .ul0 li
+    {
+        list-style: none;
+        display: inline;
+        margin-right: 50px;
+    }
+
+
+
+}
